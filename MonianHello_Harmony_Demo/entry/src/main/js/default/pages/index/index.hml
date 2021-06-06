@@ -1,0 +1,14 @@
+<div class="container">
+    <text class="title" style="color: {{titleColor}}">
+        {{ $t('strings.hello') }} {{ title }}
+    </text>
+    <text class='word'>
+        MonianHello
+    </text>
+    <div>
+        <image src="/common/MonianHello.png"></image>
+    </div>
+    <button class="button" type="capsule" value="welcome" onclick="buttonOnClick">
+    </button>
+
+</div>
